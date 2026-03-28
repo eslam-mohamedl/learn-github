@@ -1,7 +1,8 @@
-import React from 'react'
-
+import Herosection from "@/components/organisms/Herosection";
 export default function page() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <Herosection />
+    </div>
+  );
 }
