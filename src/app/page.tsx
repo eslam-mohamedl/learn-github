@@ -1,3 +1,4 @@
+
 import React from "react";
 import TeamSection from "./teamsection";
 import Herosection from "@/components/organisms/Herosection";
@@ -14,6 +15,7 @@ import Testomonials from "@/components/organisms/Testemonials";
 export default function page() {
   return (
     <div>
+
       <TeamSection />
       <Herosection />
       <CardSection />
