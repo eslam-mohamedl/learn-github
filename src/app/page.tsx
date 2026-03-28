@@ -6,7 +6,7 @@ import FeaturesSection from "@/components/organisms/FeaturesSection";
 import FAQSection from "@/components/organisms/FAQSection";
 import AboutSection from "@/components/organisms/AboutSection";
 import TestimonialsSection from "@/components/organisms/TestimonialsSection";
-
+import ContactSection from "@/components/organisms/ContactSection";
 
 export default function page() {
   return (
@@ -16,10 +16,10 @@ export default function page() {
       <Pricingsection />
       <Footer />
       <FeaturesSection />
-      <FAQSection/>
+      <FAQSection />
       <AboutSection />
       <TestimonialsSection />
-
+      <ContactSection />
     </div>
   );
 }
