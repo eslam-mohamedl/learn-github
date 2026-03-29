@@ -11,6 +11,7 @@ import AboutSection from "@/components/organisms/AboutSection";
 import TestimonialsSection from "@/components/organisms/TestimonialsSection";
 import ContactSection from "@/components/organisms/ContactSection";
 import Testomonials from "@/components/organisms/Testemonials";
+import Abderhman from "@/components/organisms/abdelrhman";  
 
 export default function page() {
   return (
@@ -27,6 +28,7 @@ export default function page() {
       <TestimonialsSection />
       <ContactSection />
       <Testomonials />
+<Abderhman
     </div>
   );
 }
