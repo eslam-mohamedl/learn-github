@@ -13,6 +13,7 @@ import ContactSection from "@/components/organisms/ContactSection";
 import Testomonials from "@/components/organisms/Testemonials";
 import Abderhman from "@/components/organisms/abdelrhman";  
 import Leo from "@/components/organisms/Leo";
+import Mo from "@/components/organisms/Mo";
 
 export default function page() {
   return (
@@ -31,6 +32,7 @@ export default function page() {
       <Testomonials />
       <Abderhman/>
       <Leo />
+      <Mo />
     </div>
   );
 }
